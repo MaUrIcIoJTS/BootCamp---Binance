@@ -33,6 +33,22 @@ estudos e desenvolvimento.
 
 ------------------------------------------------------------------------
 
+## 🔧 Alterando a rede (opcional)
+
+Rede principal (Mainnet):
+
+``` js
+const network = bitcoin.networks.bitcoin;
+const path = "m/44'/0'/0'/0/0"; 
+``` 
+
+Ou Native SegWit P2SH (Endereços começando com 3)
+
+```
+const path = "m/49'/0'/0'/0/0m"
+```
+------------------------------------------------------------------------
+
 ## Instalação
 
 1.  Clone este repositório:
