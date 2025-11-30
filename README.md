@@ -1,12 +1,19 @@
 # BootCamp---Binance
 
 Aqui está inserido o primeiro desafio do bootcamp Binance sem interface.
+
 -Foi criado um gerador de carteiras, um projeto bem prático utilizando um gerador de carteira BTC HD e JavaScript e as bibliotecas:
+
  .bip 39: Geração de frases mnemônicas (seeds)
+ 
  .bip 32: Derivação HD (carteiras hierárquicas) 
+ 
  .bitcoinjs.lib: Criação de endereços BTC
+ 
 -A carteira foi criada para a rede testnet3, porém caso queira alterar a rede basta alterar as consts para:
+
  const network = bitcoin.networks.bitcoin
+ 
  const path =  m/44'/0'/0'/0/0.
  
  ____________________________//____________________________
@@ -14,17 +21,25 @@ Aqui está inserido o primeiro desafio do bootcamp Binance sem interface.
  Funcionalidades
 
  -Gera automaticamente:
+ 
   .Frase mnemonica (12 palavras)
+  
   .Seed derivada da frase
+  
   .chave privada (formato WIF)
+  
   .endereço Bitcoin Testnet (P2PKH)
+  
   .padrão BIP32/BIP39 para gerar as carteiras HD
 
   Tecnologias Utilizadas:
 
    .Node.js
+   
    .bip39
+   
    .bip32
+   
    .bitcoinjs-lib
 
  ____________________________//____________________________
