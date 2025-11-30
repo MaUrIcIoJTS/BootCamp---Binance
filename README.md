@@ -47,8 +47,7 @@ Aqui está inserido o primeiro desafio do bootcamp Binance sem interface.
  Instalação:
 
  1. Clona esse repositório aqui:
-    git clone https://github.com/SEU-USUARIO/seu-repo.git
-    cd seu-repo
+    git clone https://github.com/MaUrIcIoJTS/BootCamp---Binance.git
 
  2. Instala as dependências:
     npm install bip32 bip39 bitcoinjs-lib
